@@ -36,7 +36,7 @@ if checkbox_hora:
     data = cargar_data(500)
     estado.text("¡Cargado! (usando st.cache)")
     st.subheader('Numero de recorridos por hora')
-    values = np.histogram(data[COLUMNA].dt.hour, bins=24, range=(18.916005, -97.029051))[0]
+    values = np.histogram(data[COLUMNA].dt.hour, bins=24, range=(0,24))[0]
     st.bar_chart(values)
 
 
