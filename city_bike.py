@@ -7,7 +7,7 @@ import re
 DATA_URL= 'https://raw.githubusercontent.com/BryanVRe/streamlit/master/citibike-tripdata.csv'
 COLUMNA = 'started_at'
 
-st.markdown("<h1 style='text-align: center; color: red;'>CITIBIKE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: blue;'>CITIBIKE</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: black;'>Bryan Valerio Reyes</h3>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: black;'>zs20006768</h3>", unsafe_allow_html=True)
 sidebar = st.sidebar
