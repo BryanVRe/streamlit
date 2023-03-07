@@ -20,6 +20,7 @@ def cargar_data(nrows):
     data.rename(lowercase, axis='columns', inplace=True)
     data[COLUMNA] = pd.to_datetime(data[COLUMNA])
     return data
+st.sidebar.image('https://raw.githubusercontent.com/BryanVRe/streamlit/master/BRYAN.jpg')
 
 checkbox_data = sidebar.checkbox("Mostrar todos los datos")
 if checkbox_data:
